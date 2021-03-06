@@ -1,0 +1,225 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+  
+*{
+margin:0px;
+padding:0px;
+font-family:tahoma;
+letter-spacing:0.1em;
+
+
+
+}
+.container{
+width:100%;
+height: 10vh;
+margin:auto;
+background-color: black;
+
+
+}
+
+/*this is the parallax effect where image stays while scrolling*/
+.imgboard{
+	background-image:url(homeBg.jpg);
+	width:100%;
+	height:500px;
+	align-items: center;
+
+	background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+  justify-content: center;
+/*border-radius: 13px;*/
+
+}
+
+
+#logo{
+
+display:inline;
+color:white;
+display: inline;
+float: left;
+padding-left:5%;
+padding-top: 13px;
+margin-left:0px;}
+
+.list {
+list-style:none;
+display:inline;
+float:right;
+padding-right:5%;
+padding-top: 13px;
+font-size:25px;
+padding-bottom:10px;
+padding-right:5px;
+
+}
+.list a{
+
+text-decoration:none;
+margin:5px;
+color:white;
+}
+.list a:hover{
+color:red;
+
+}
+
+.list li{
+display:inline;
+
+
+
+}
+#text-imgbrd{
+	
+	font-size: 25px;
+	display: block;
+	color:white;
+	margin-bottom: 0,auto;
+}
+.button{
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+	color:black;
+	padding:8px;
+	margin: 5px;
+	border-radius: 10px;
+	background:transparent;
+	
+}
+.button:hover{
+	background-color: black;
+	color: white;
+
+}
+@media only screen and (max-width: 800px) {
+	#logo{font-size: 25px;
+	padding-left: 4px;}
+	.list{display: block;
+		padding-top: 20px;
+	  text-align: center;
+	  font-size: medium;
+	  padding-right: 4px;
+	   }
+	
+	
+	}
+
+	.menu {
+		background:black;
+		border: 2px solid white;
+		border-radius: 13px;
+	
+list-style:none;
+width: 100%;
+display:block;
+align-content: center;
+
+padding-right:5%;
+padding-top: 20px;
+
+padding-left:40px; 
+font-size:30px;
+padding-bottom:10px;
+padding-right:5px;
+
+}
+.menu a{
+
+text-decoration:none;
+margin:5px;
+margin-left: 0px;
+color:white;
+}
+.menu a:hover{
+color:red;
+
+}
+
+.menu li{
+	
+	padding-bottom: 30px;
+}
+
+
+.flagship {
+list-style:none;
+display:inline-block;
+align-content: center;
+margin-left: 30px;
+padding-right:5%;
+padding-top: 13px;
+font-size:25px;
+padding-bottom:30px;
+padding-right:5px;
+
+}
+.flagship a{
+	color: black;
+
+text-decoration:none;
+margin:5px;
+
+}
+.flagship a:hover{
+color:red;
+
+}
+.flagship li{
+	margin-bottom: 30px;
+
+}
+
+
+#whatsnew{
+	padding-top: 20px;
+
+background-image:url(Bg1.jpg);
+width:100%;
+	height:500px;
+	align-items: center;
+
+	background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+  justify-content: center;
+		
+
+
+}
+.listb {
+list-style:none;
+display:inline;
+float:left;
+padding-right:5%;
+padding-top: 5px;
+font-size:15px;
+padding-bottom:10px;
+padding-right:5px;
+
+}
+.listb a{
+
+text-decoration:none;
+margin:5px;
+color:white;
+}
+.listb a:hover{
+color:red;
+
+}
+
+.listb li{
+display:inline;
+}
